@@ -32,7 +32,7 @@ function accessElementInArray() {
   
 function  destructivelyRemoveElementFromBeginningOfArray() {
   var arr6 = [1, 2, 3];
-var FirstElement = arr6.shift();
+arr6.shift();
 return arr6;
 }
 
