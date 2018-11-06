@@ -32,13 +32,13 @@ function accessElementInArray() {
   
   var arr6 = [1, 2, 3];
 function  destructivelyRemoveElementFromBeginningOfArray() {
-return arr6.shift();
+arr6.shift();
+  return arr6;
 }
 
 var arr7 = [1, 2, 3];
 function removeElementFromBeginningOfArray() {
-arr7.slice(1);
-return arr7
+return arr7.slice(1);
 }
 
 var arr8 = [1, 2, 3];
