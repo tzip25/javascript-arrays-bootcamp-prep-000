@@ -9,11 +9,6 @@ return arr1New;
 
 
 function destructivelyAddElementToBeginningOfArray() {
-var arr2 = [1];
-arr2.unshift('foo');
-return arr2;
-}
-
 function addElementToEndOfArray() {
 var arr3 = [1];
 var arrayNew = [...arr3, 'foo'];
