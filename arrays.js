@@ -30,15 +30,15 @@ function accessElementInArray() {
   return(arr5[2]);
   }
   
-function  destructivelyRemoveElementFromBeginningOfArray() {
   var arr6 = [1, 2, 3];
-  arr6.shift();
-  return arr6;
+function  destructivelyRemoveElementFromBeginningOfArray() {
+return arr6.shift();
 }
 
 var arr7 = [1, 2, 3];
 function removeElementFromBeginningOfArray() {
-return arr7.slice(1);
+arr7.slice(1);
+return arr7
 }
 
 var arr8 = [1, 2, 3];
