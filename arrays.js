@@ -8,8 +8,8 @@ return arr1New;
 }
 
 var arr2 = [1];
-function destructivelyAddElementToBeginningOfArray() {
 arr2.unshift('foo');
+function destructivelyAddElementToBeginningOfArray() {
 return arr2;
 }
 
