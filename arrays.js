@@ -42,8 +42,8 @@ arr7.slice(1);
 return arr7;
 }
 
+var arr7 = [1, 2, 3];
 function destructivelyRemoveElementFromEndOfArray() {
-  var arr7 = [1, 2, 3];
 return arr7.pop();
 }
  
