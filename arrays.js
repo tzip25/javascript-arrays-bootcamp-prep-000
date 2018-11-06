@@ -30,8 +30,8 @@ function accessElementInArray() {
   return(arr5[2]);
   }
   
-  var arr6 = [1, 2, 3];
 function  destructivelyRemoveElementFromBeginningOfArray() {
+  var arr6 = [1, 2, 3];
 var FirstElement = arr6.shift();
 return arr6;
 }
