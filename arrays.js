@@ -7,10 +7,11 @@ var arr1New = ['foo', ...arr1];
 return arr1New;
 }
 
-var arr2 = [1];
-arr2.unshift('foo');
+
 function destructivelyAddElementToBeginningOfArray() {
-return arr2;
+return array;
+var array = [1];
+array.unshift('foo');
 }
 
 function addElementToEndOfArray() {
